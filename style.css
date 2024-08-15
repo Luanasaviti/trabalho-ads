@@ -1,0 +1,144 @@
+ /* estilo geral */
+ * {
+    padding: 0;
+    box-sizing: border-box;}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.flex {
+    display: flex;
+}
+section {
+    padding: 80px 4%;
+}
+h1{
+    /*estilo do título */
+    font-size: 42px;
+}
+h1 span{
+    color: rgb(181, 129, 231);
+}
+      /*Estilo do cabeçalho <3 */
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+header ul {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row-reverse; 
+    padding: 18px 25px;
+}  
+header ul a {
+    display: inline-block;
+   padding: 8px 15px;
+    text-decoration: none;
+    color: rgb(202, 199, 199);
+    font-size: 20px;
+    list-style-type: none;
+    transition: 0.2s;
+} 
+a:hover {
+   color: aliceblue;
+   transform: scale(1.05);
+    }
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px; 
+}
+     /* Estilo do topo do site */
+
+.topo-site h1 i {
+    font-size: 25px;
+}
+ 
+section.topo-site.flex {
+   align-items: center;
+   justify-content: center;
+
+}
+.texto p {
+    margin-top: 17px;
+    font-size: 28px;
+    
+}
+.img-topo-site img {
+    padding: 30px 16px;
+    border-radius: 150px;
+}
+/*estilo do formulário para contato */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+form input, form textarea {
+    width: 100%;
+    background-color: rgba(59, 40, 77, 0.497);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 13px;
+    color: antiquewhite;
+    font-size: 16px;
+}
+form textarea {
+resize: none; /* para nao redimencionar*/
+}
+form .botao-enviar{
+    margin-top: 10px;
+    text-align: center;
+}
+form .botao-enviar input {
+    width: 100px;
+    color: #000;
+    background-color:rgb(181, 129, 231);
+    font-weight: 650; /* espessura da fonte */
+    cursor: pointer; /* define o cursor do mouse como um "ponteiro" sobre determinado elemento*/
+}
+     /* estilo da seção formação */
+.ftxt {
+   width: 100%;
+}
+.ftxt p {
+    font-size: 28px;
+}
+.ftxt h1{
+    font-size: 48px;
+    padding: 20px 5px;
+
+}
+.ftxt p span {
+    color:rgb(181, 129, 231);
+    font-weight: 650
+}
+     /* estilo projetos */
+.ptxt h1  {
+    font-size: 48px;
+}
+.ptxt h2 {
+    font-size: 28px;
+}
+.botao-projetos input {
+  background-color: blueviolet;
+  color: #fff8f8;
+  padding: 18px 14px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+    
+} 
+input:hover {
+    background-color:rgb(179, 114, 239);
+    transform: scale(1.05);
+     }

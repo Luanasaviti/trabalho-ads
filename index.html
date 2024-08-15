@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+     <nav class="containermenu"> <!--Navegação-->
+        <ul>
+            <li > <a href="index.html">Sobre mim</a></li> 
+            <li> <a href="#formaçao">Formação</a></li>
+            <li> <a href="#projetos">Projetos</a></li>
+            <li> <a href="#contato">Contato</a></li>
+        </ul>
+     </nav>
+    </header>
+  <main> 
+    <section class="topo-site"> <!--Seção sobre mim-->
+      <div class="flex"> 
+        <div class="texto">
+            <h1> Olá, me chamo <span>Luana</span><i class="bi bi-suit-heart-fill"></i> </h1> <!--titulo-->
+            <p>Estou cursando Análise e Desenvolvimento de Sistemas(ADS) e sou apaixonada por programaçao e tomar um belo cafézinho enquanto realizo um novo projeto! Fora do mundo da programação, adoro ler, fazer crochê e passar tempo com meus gatos. Esses hobbies ajudam a alimentar minha criatividade e equilíbrio pessoal. </p>
+        </div>
+        <div class="img-topo-site"> <img src="images/avatar.jpg" alt="" width="380px"></div> <!--Adicionando imagem-->
+      </div>
+      </div>
+    </section>
+    <section id="formaçao"> <!--Seção da Formação-->
+      <div class="ftxt"> 
+      <h1>Minha Formação</h1> <!--titulo-->
+     <p><span>Uninter</span> - Tecnólogo em Análise e Desenvolvimento de Sistemas  (cursando)</p>
+     <p><span>Google</span> - Fundamentos do gerenciamento de projetos (Cursando)</p>
+     <p> <span>Rocketseat</span> - Mini curso Discover (Concluído)</p> 
+    </div>
+    </section>
+    <section id="projetos"> <!--Seção-->
+      <div class="ptxt">
+       <h1>Meus Projetos</h1> <!--titulo-->
+       <h2>Clique no botão abaixo para ver meus projetos no GitHub  <i class="bi bi-github"></i></h2> </div>
+       <div class="botao-projetos">
+        <a href="https://github.com/Luanasaviti?tab=repositories" class="bt" target="_blank"><input type="button" value="Conhecer Projetos"></a> 
+      </div>
+    </section>
+    <section id="contato">
+     <form > <!--formulário para contato-->
+      <h1>ENTRE EM <span>CONTATO</span></h1> <!--titulo-->
+       <input type="text" placeholder="Nome Completo" required>
+      <input type="email" placeholder="E-mail" required> 
+      <input type="number" placeholder="Seu celular" required >
+      <textarea name="" placeholder="Envie seu comentário" ></textarea> <!--opção para o usuário adicionar um comentário-->
+      <div class="botao-enviar"><input type="submit" value="ENVIAR"></div>
+     </form>
+    </section>
+  </main>
+</body>
+</html> 
