@@ -1,6 +1,3 @@
-<p align="center">
-  <img alt="foto.capa" src="" width="70%">
-</p>
 
 ## 🚀 Tecnologias
 
